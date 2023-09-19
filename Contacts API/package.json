@@ -1,0 +1,19 @@
+{
+  "name": "serveur-minimale",
+  "type": "module",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "version": "1.0.0",
+  "description": "Serveur http minimal",
+  "main": "ContactsService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ContactsService.js"
+  },
+  "author": "LouisSavard",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^8.1.0"
+  }
+}
